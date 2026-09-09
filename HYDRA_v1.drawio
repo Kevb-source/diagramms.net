@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="n_B6j3HWahmiFtDldOJG">
-    <mxGraphModel dx="1635" dy="2769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="2590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,6 +517,18 @@
         </mxCell>
         <mxCell id="PWfN5HaozgfIgq3-PFLm-359" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv2d 3×2: 64&amp;nbsp;→ 128&lt;/div&gt;&lt;div&gt;[B,64,H/2,W/2]&lt;/div&gt;" vertex="1">
           <mxGeometry height="46.67" width="130" x="1065" y="-1067" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-362" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv2d 3×2: 64&amp;nbsp;→ 256&lt;/div&gt;&lt;div&gt;[B,64,H/4,W/4]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.67" width="130" x="1065" y="-993" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-363" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv2d 3×2: 64&amp;nbsp;→ 512&lt;/div&gt;&lt;div&gt;[B,64,H/8,W/8]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.67" width="130" x="1065.01" y="-919" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-364" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv2d 3×2: 64&amp;nbsp;→ 256&lt;/div&gt;&lt;div&gt;[B,64,H/4,W/4]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.67" width="130" x="1065.01" y="-845" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-365" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv2d 3×2: 64&amp;nbsp;→ 128&lt;/div&gt;&lt;div&gt;[B,64,H/2,W/2]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.67" width="130" x="1065.01" y="-780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
