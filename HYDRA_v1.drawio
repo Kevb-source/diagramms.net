@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="n_B6j3HWahmiFtDldOJG">
-    <mxGraphModel dx="1635" dy="2793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1802" dy="2888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,7 +233,7 @@
             <mxPoint x="87.5" y="239.10000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PWfN5HaozgfIgq3-PFLm-129" parent="PWfN5HaozgfIgq3-PFLm-151" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="Reshape:&lt;div&gt;[B*H*W,1,6]&lt;/div&gt;&lt;div&gt;[B,6,H,W]&lt;/div&gt;" vertex="1">
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-129" parent="PWfN5HaozgfIgq3-PFLm-151" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="Reshape:&lt;div&gt;[B*H*W,1,6]&amp;nbsp;→&amp;nbsp;[B,6,H,W]&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="17.5" y="240" as="geometry" />
         </mxCell>
         <mxCell id="PWfN5HaozgfIgq3-PFLm-130" edge="1" parent="PWfN5HaozgfIgq3-PFLm-151" source="PWfN5HaozgfIgq3-PFLm-125" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PWfN5HaozgfIgq3-PFLm-129" value="">
@@ -306,7 +306,22 @@
           <mxGeometry height="300" width="195" x="-390" y="-500" as="geometry" />
         </mxCell>
         <mxCell id="PWfN5HaozgfIgq3-PFLm-184" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;div&gt;Linear 6 → 64&lt;/div&gt;&lt;div&gt;[B*H*W,1,64]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38.1" width="100" x="520" y="-860" as="geometry" />
+          <mxGeometry height="38.1" width="100" x="560" y="-810" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-185" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="&lt;div&gt;GELU&lt;/div&gt;[B*H*W,1,64]" vertex="1">
+          <mxGeometry height="38.1" width="100" x="560" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-186" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;div&gt;Linear 64 → 64&lt;/div&gt;&lt;div&gt;[B*H*W,1,64]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="38.1" width="100" x="560" y="-690" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-187" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="&lt;div&gt;GELU&lt;/div&gt;[B*H*W,64,6]" vertex="1">
+          <mxGeometry height="38.1" width="100" x="560" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-188" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;div&gt;Linear 64 → 31&lt;/div&gt;&lt;div&gt;[B*H*W,1,64]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="38.1" width="100" x="560" y="-570" as="geometry" />
+        </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-189" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;div&gt;Reshape:&lt;/div&gt;&lt;div&gt;[B,6,H,W]&amp;nbsp;→&amp;nbsp;[B*H*W,1,6]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="530" y="-900" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
