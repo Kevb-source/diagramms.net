@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="n_B6j3HWahmiFtDldOJG">
-    <mxGraphModel dx="1635" dy="2769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="2698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="PWfN5HaozgfIgq3-PFLm-192" parent="PWfN5HaozgfIgq3-PFLm-190" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;GELU&lt;/div&gt;" vertex="1">
           <mxGeometry height="38.1" width="100" x="55" y="79.99999999999991" as="geometry" />
         </mxCell>
-        <mxCell id="PWfN5HaozgfIgq3-PFLm-193" parent="PWfN5HaozgfIgq3-PFLm-190" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;SE1D-Block (64)&lt;/div&gt;&lt;div&gt;[B*H*W,64,15]&lt;/div&gt;" vertex="1">
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-193" parent="PWfN5HaozgfIgq3-PFLm-190" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;SE1D-Block (64)&lt;/div&gt;&lt;div&gt;[B*H*W,64,31]&lt;/div&gt;" vertex="1">
           <mxGeometry height="57.5" width="100" x="55" y="140" as="geometry" />
         </mxCell>
         <mxCell id="PWfN5HaozgfIgq3-PFLm-194" edge="1" parent="PWfN5HaozgfIgq3-PFLm-190" source="PWfN5HaozgfIgq3-PFLm-191" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PWfN5HaozgfIgq3-PFLm-192" value="">
@@ -64,10 +64,10 @@
             <mxPoint x="95" y="239.10000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PWfN5HaozgfIgq3-PFLm-198" parent="PWfN5HaozgfIgq3-PFLm-190" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;SE1D-Block (64)&lt;/div&gt;&lt;div&gt;[B*H*W,64,15]&lt;/div&gt;" vertex="1">
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-198" parent="PWfN5HaozgfIgq3-PFLm-190" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;SE1D-Block (64)&lt;/div&gt;&lt;div&gt;[B*H*W,64,31]&lt;/div&gt;" vertex="1">
           <mxGeometry height="57.5" width="100" x="55" y="225" as="geometry" />
         </mxCell>
-        <mxCell id="PWfN5HaozgfIgq3-PFLm-199" parent="PWfN5HaozgfIgq3-PFLm-190" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv1d 3×1: 64&lt;/div&gt;&lt;div&gt;[B*H*W,64,15]&lt;/div&gt;" vertex="1">
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-199" parent="PWfN5HaozgfIgq3-PFLm-190" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv1d 3×1: 64&lt;/div&gt;&lt;div&gt;[B*H*W,1,31]&lt;/div&gt;" vertex="1">
           <mxGeometry height="38.1" width="100" x="55" y="310" as="geometry" />
         </mxCell>
         <mxCell id="PWfN5HaozgfIgq3-PFLm-200" edge="1" parent="PWfN5HaozgfIgq3-PFLm-190" source="PWfN5HaozgfIgq3-PFLm-193" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PWfN5HaozgfIgq3-PFLm-198" value="">
@@ -347,7 +347,7 @@
             <mxPoint x="-40.8" y="22.120317667871717" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PWfN5HaozgfIgq3-PFLm-181" parent="PWfN5HaozgfIgq3-PFLm-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="RGB&lt;br&gt;[B*H*W,3]" vertex="1">
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-181" parent="PWfN5HaozgfIgq3-PFLm-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="RGB&lt;br&gt;[B*H*W,1,3]" vertex="1">
           <mxGeometry height="46.67" width="100" x="107.75" y="64.75" as="geometry" />
         </mxCell>
         <mxCell id="PWfN5HaozgfIgq3-PFLm-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;" value="" vertex="1">
