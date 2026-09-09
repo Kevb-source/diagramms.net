@@ -530,6 +530,9 @@
         <mxCell id="PWfN5HaozgfIgq3-PFLm-365" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv2d 3×2: 64&amp;nbsp;→ 128&lt;/div&gt;&lt;div&gt;[B,64,H/2,W/2]&lt;/div&gt;" vertex="1">
           <mxGeometry height="46.67" width="130" x="1065.01" y="-780" as="geometry" />
         </mxCell>
+        <mxCell id="PWfN5HaozgfIgq3-PFLm-366" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Conv2d 3×2: 64&amp;nbsp;→ 64&lt;/div&gt;&lt;div&gt;[B,64,H,W]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.67" width="130" x="1070" y="-715" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
