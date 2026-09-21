@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Seite-1" id="n_B6j3HWahmiFtDldOJG">
-    <mxGraphModel dx="2491" dy="3254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,11 +216,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Kopie von Seite-1" id="ILBKVhhac-XOlBaQ63Ah">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2847" dy="3451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xdmgMKa7tB5_WjMJlEip-0" />
         <mxCell id="xdmgMKa7tB5_WjMJlEip-1" parent="xdmgMKa7tB5_WjMJlEip-0" />
-        <mxCell id="xdmgMKa7tB5_WjMJlEip-2" parent="xdmgMKa7tB5_WjMJlEip-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+        <mxCell id="xdmgMKa7tB5_WjMJlEip-2" parent="xdmgMKa7tB5_WjMJlEip-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="830" width="330" x="-170" y="-1540" as="geometry" />
         </mxCell>
         <mxCell id="xdmgMKa7tB5_WjMJlEip-18" parent="xdmgMKa7tB5_WjMJlEip-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" value="&lt;h1 align=&quot;center&quot;&gt;1. Teacher Training&lt;/h1&gt;" vertex="1">
@@ -424,7 +424,7 @@
       <root>
         <mxCell id="igEdUTGIrvUcDcJkJ_68-0" />
         <mxCell id="igEdUTGIrvUcDcJkJ_68-1" parent="igEdUTGIrvUcDcJkJ_68-0" />
-        <mxCell id="igEdUTGIrvUcDcJkJ_68-2" parent="igEdUTGIrvUcDcJkJ_68-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+        <mxCell id="igEdUTGIrvUcDcJkJ_68-2" parent="igEdUTGIrvUcDcJkJ_68-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#b0e3e6;strokeColor=#0e8088;" value="" vertex="1">
           <mxGeometry height="680" width="710" x="-650" y="-1560" as="geometry" />
         </mxCell>
         <mxCell id="igEdUTGIrvUcDcJkJ_68-3" connectable="0" parent="igEdUTGIrvUcDcJkJ_68-1" style="group;fillColor=#B6FF8D;strokeColor=#36393d;" value="" vertex="1">
