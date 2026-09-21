@@ -271,10 +271,10 @@
         <mxCell id="2XKiN9WOeTITcQRhFOwS-123" parent="2XKiN9WOeTITcQRhFOwS-106" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="HSI-Cube&lt;br&gt;[B*H*W,1,31]" vertex="1">
           <mxGeometry height="46.67" width="103.57327809425168" x="101.242879337131" y="60.41" as="geometry" />
         </mxCell>
-        <mxCell id="2XKiN9WOeTITcQRhFOwS-124" connectable="0" parent="1" style="group" value="" vertex="1">
+        <mxCell id="2XKiN9WOeTITcQRhFOwS-124" connectable="0" parent="1" style="group;strokeColor=none;strokeWidth=0;" value="" vertex="1">
           <mxGeometry height="480" width="315.38" x="925" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="2XKiN9WOeTITcQRhFOwS-87" parent="2XKiN9WOeTITcQRhFOwS-124" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="" vertex="1">
+        <mxCell id="2XKiN9WOeTITcQRhFOwS-87" parent="2XKiN9WOeTITcQRhFOwS-124" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;fontStyle=1" value="" vertex="1">
           <mxGeometry height="390" width="315.38" y="90" as="geometry" />
         </mxCell>
         <mxCell id="2XKiN9WOeTITcQRhFOwS-88" parent="2XKiN9WOeTITcQRhFOwS-124" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Student&lt;/font&gt;" vertex="1">
