@@ -422,7 +422,7 @@
       <root>
         <mxCell id="igEdUTGIrvUcDcJkJ_68-0" />
         <mxCell id="igEdUTGIrvUcDcJkJ_68-1" parent="igEdUTGIrvUcDcJkJ_68-0" />
-        <mxCell id="igEdUTGIrvUcDcJkJ_68-2" parent="igEdUTGIrvUcDcJkJ_68-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+        <mxCell id="igEdUTGIrvUcDcJkJ_68-2" parent="igEdUTGIrvUcDcJkJ_68-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="680" width="710" x="-650" y="-1560" as="geometry" />
         </mxCell>
         <mxCell id="igEdUTGIrvUcDcJkJ_68-3" connectable="0" parent="igEdUTGIrvUcDcJkJ_68-1" style="group;fillColor=#B6FF8D;strokeColor=#36393d;" value="" vertex="1">
