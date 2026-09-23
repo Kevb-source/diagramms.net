@@ -360,7 +360,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="58dP5BCVNfr6tZ8zLTGT-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=30;" value="&lt;font&gt;Concat&lt;/font&gt;&amp;nbsp;[62]" vertex="1">
-          <mxGeometry height="90" width="229.37" x="203.01" y="950" as="geometry" />
+          <mxGeometry height="90" width="229.37" x="203.01" y="1066.75" as="geometry" />
         </mxCell>
         <mxCell id="58dP5BCVNfr6tZ8zLTGT-40" edge="1" parent="1" source="58dP5BCVNfr6tZ8zLTGT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" target="58dP5BCVNfr6tZ8zLTGT-38" value="">
           <mxGeometry relative="1" as="geometry">
@@ -408,6 +408,9 @@
             <mxPoint x="300" y="1285" as="sourcePoint" />
             <mxPoint x="369" y="1080" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="58dP5BCVNfr6tZ8zLTGT-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;container=0;fontStyle=1;fontSize=20;" value="&lt;div&gt;Conv2d 3×3&lt;/div&gt;64 → 31" vertex="1">
+          <mxGeometry height="57.5" width="172.37" x="233.82000000000005" y="990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
