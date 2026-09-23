@@ -537,8 +537,13 @@
             <mxPoint x="1952" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TAvVCClXZySuFTCzDG2o-185" edge="1" parent="1" source="TAvVCClXZySuFTCzDG2o-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TAvVCClXZySuFTCzDG2o-183" value="">
+        <mxCell id="TAvVCClXZySuFTCzDG2o-185" edge="1" parent="1" source="TAvVCClXZySuFTCzDG2o-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="TAvVCClXZySuFTCzDG2o-193" value="">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1740.03" y="780.03" />
+              <mxPoint x="1740.03" y="660.03" />
+              <mxPoint x="1291.07" y="660.03" />
+            </Array>
             <mxPoint x="1702" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -758,19 +763,19 @@
         <mxCell id="TAvVCClXZySuFTCzDG2o-182" parent="TAvVCClXZySuFTCzDG2o-165" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="HSI-Cube&lt;br&gt;[B*H*W,1,31]" vertex="1">
           <mxGeometry height="46.67" width="139.86013986013984" x="150.6993006993007" y="64.75" as="geometry" />
         </mxCell>
-        <mxCell id="TAvVCClXZySuFTCzDG2o-188" edge="1" parent="1" source="TAvVCClXZySuFTCzDG2o-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+        <mxCell id="TAvVCClXZySuFTCzDG2o-188" edge="1" parent="1" source="TAvVCClXZySuFTCzDG2o-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TAvVCClXZySuFTCzDG2o-190" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1550" y="780.0050000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TAvVCClXZySuFTCzDG2o-183" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=4;" value="&lt;div&gt;Conv1d 1×1: 3&amp;nbsp;&lt;/div&gt;&lt;div&gt;[B,64,H,W]&lt;/div&gt;" vertex="1">
+        <mxCell id="TAvVCClXZySuFTCzDG2o-183" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=4;" value="&lt;div&gt;Conv1d 1×1&amp;nbsp;&lt;/div&gt;&lt;div&gt;[B,12,H,W]&lt;/div&gt;" vertex="1">
           <mxGeometry height="46.67" width="130" x="1597" y="756.67" as="geometry" />
         </mxCell>
         <mxCell id="TAvVCClXZySuFTCzDG2o-186" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="Concat" vertex="1">
-          <mxGeometry height="38.1" width="60" x="1190" y="880.0000000000001" as="geometry" />
+          <mxGeometry height="38.1" width="60" x="1320" y="895.0000000000001" as="geometry" />
         </mxCell>
         <mxCell id="TAvVCClXZySuFTCzDG2o-189" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#ffcc99;strokeColor=#36393d;" value="Conv2d 3x3" vertex="1">
-          <mxGeometry height="38.1" width="100" x="1030" y="750" as="geometry" />
+          <mxGeometry height="38.1" width="100" x="1060" y="860" as="geometry" />
         </mxCell>
         <mxCell id="TAvVCClXZySuFTCzDG2o-192" edge="1" parent="1" source="TAvVCClXZySuFTCzDG2o-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TAvVCClXZySuFTCzDG2o-191" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -778,8 +783,26 @@
         <mxCell id="TAvVCClXZySuFTCzDG2o-190" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="GELU" vertex="1">
           <mxGeometry height="38.1" width="38.1" x="1520" y="760.96" as="geometry" />
         </mxCell>
-        <mxCell id="TAvVCClXZySuFTCzDG2o-191" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=4;" value="&lt;div&gt;Conv1d 1×1: 3&amp;nbsp;&lt;/div&gt;&lt;div&gt;[B,64,H,W]&lt;/div&gt;" vertex="1">
+        <mxCell id="TAvVCClXZySuFTCzDG2o-194" edge="1" parent="1" source="TAvVCClXZySuFTCzDG2o-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TAvVCClXZySuFTCzDG2o-193" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TAvVCClXZySuFTCzDG2o-191" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=4;" value="&lt;div&gt;Conv1d 1×1&amp;nbsp;&lt;/div&gt;&lt;div&gt;[B,24,H,W]&lt;/div&gt;" vertex="1">
           <mxGeometry height="46.67" width="130" x="1350" y="756.67" as="geometry" />
+        </mxCell>
+        <mxCell id="TAvVCClXZySuFTCzDG2o-193" parent="1" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="37.65176470588236" width="38.1" x="1272" y="761.41" as="geometry" />
+        </mxCell>
+        <mxCell id="TAvVCClXZySuFTCzDG2o-195" edge="1" parent="1" source="TAvVCClXZySuFTCzDG2o-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="TAvVCClXZySuFTCzDG2o-183" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1629" y="850" as="sourcePoint" />
+            <mxPoint x="1590" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAvVCClXZySuFTCzDG2o-196" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=4;" value="&lt;div&gt;Conv1d 1×1: 12→ 6&amp;nbsp;&lt;/div&gt;&lt;div&gt;[B,24,H,W]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.67" width="130" x="1102" y="756.9" as="geometry" />
+        </mxCell>
+        <mxCell id="TAvVCClXZySuFTCzDG2o-197" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;container=0;" value="&lt;div&gt;Conv2d 3×3: 12→ 6&amp;nbsp;&lt;/div&gt;&lt;div&gt;[B,C,H,W]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.1209411764706" width="139.86" x="1200" y="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
